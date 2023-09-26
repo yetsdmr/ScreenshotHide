@@ -11,6 +11,7 @@
 		4A189DCD2ABB579C006C1AE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A189DCC2ABB579C006C1AE3 /* ContentView.swift */; };
 		4A189DCF2ABB579D006C1AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A189DCE2ABB579D006C1AE3 /* Assets.xcassets */; };
 		4A189DD22ABB579D006C1AE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A189DD12ABB579D006C1AE3 /* Preview Assets.xcassets */; };
+		4AA831512AC2ECB4006513D8 /* ScreenshitPreventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA831502AC2ECB4006513D8 /* ScreenshitPreventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4A189DCC2ABB579C006C1AE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A189DCE2ABB579D006C1AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A189DD12ABB579D006C1AE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AA831502AC2ECB4006513D8 /* ScreenshitPreventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshitPreventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4A189DC92ABB579C006C1AE3 /* ScreenshotHide */ = {
 			isa = PBXGroup;
 			children = (
+				4AA8314F2AC2EC9D006513D8 /* Helpers */,
 				4A189DCA2ABB579C006C1AE3 /* ScreenshotHideApp.swift */,
 				4A189DCC2ABB579C006C1AE3 /* ContentView.swift */,
 				4A189DCE2ABB579D006C1AE3 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				4A189DD12ABB579D006C1AE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AA8314F2AC2EC9D006513D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4AA831502AC2ECB4006513D8 /* ScreenshitPreventView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA831512AC2ECB4006513D8 /* ScreenshitPreventView.swift in Sources */,
 				4A189DCD2ABB579C006C1AE3 /* ContentView.swift in Sources */,
 				4A189DCB2ABB579C006C1AE3 /* ScreenshotHideApp.swift in Sources */,
 			);
